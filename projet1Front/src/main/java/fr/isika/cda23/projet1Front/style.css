@@ -1,0 +1,133 @@
+.root { 
+    -fx-accent: #1e74c6;
+     -fx-focus-color: -fx-accent;
+     -fx-base: black;
+    -fx-control-inner-background: derive(-fx-base, 35%);
+    -fx-control-inner-background-alt: -fx-control-inner-background ;
+   
+}
+
+
+.label{
+    -fx-text-fill: BURLYWOOD;
+    
+}
+
+
+#recupererPass1{
+	-fx-text-fill: ORANGE;
+}
+
+.text-field {
+    -fx-prompt-text-fill: gray;
+}
+
+.titulo{
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+.button{
+    -fx-focus-traversable: false;
+    -fx-text-fill: BURLYWOOD;
+    
+}
+.choice-box {
+  -fx-background-color: black;
+  -fx-mark-color: orange, arrow color;
+ -fx-font-size: 13px;
+}
+
+.choice-box .context-menu { -fx-background-color: black; }
+
+.choice-box .menu-item:focused { -fx-background-color: orange; }
+
+.choice-box .menu-item > .label { 
+	-fx-text-fill: white;
+	-fx-font-size: 13px;
+	
+}
+
+
+.choice-box .menu-item:focused > .label { -fx-text-fill: black; }
+
+
+
+
+
+#spinnerAnneeScolaire{
+	-fx-background-color: orange;
+	-fx-text-fill: black; 
+	 -fx-background-color: black;
+	}
+
+
+
+.separator *.line { 
+ -fx-background-color: #3C3C3C;
+ -fx-border-style: solid;
+ -fx-border-width: 1px;
+}
+.scroll-bar{
+ -fx-background-color: derive(-fx-base,45%)
+}
+.button:default {
+ -fx-base: -fx-accent ;
+} 
+.table-view{
+ /*-fx-background-color: derive(-fx-base, 10%);*/
+ -fx-selection-bar-non-focused: derive(-fx-base, 50%);
+}
+.table-view .column-header .label{
+ -fx-alignment: CENTER_LEFT;
+ -fx-font-weight: none;
+}
+.list-cell:even,
+.list-cell:odd,
+.table-row-cell:even,
+.table-row-cell:odd{ 
+ -fx-control-inner-background: derive(-fx-base, 15%);
+}
+.list-cell:empty,
+.table-row-cell:empty {
+ -fx-background-color: transparent;
+}
+.list-cell,
+.table-row-cell{
+ -fx-border-color: transparent;
+ -fx-table-cell-border-color:transparent;
+}
+.dialog-pane {
+ background-color: derive(-fx-base, 35%);
+ color: lightgray;
+ border-radius: 10px;
+ }
+.dialog-pane > .content.label {
+ -fx-padding: 1.5em 2.5em 1.5em 2.5em;
+ -fx-text-fill:ORANGE;
+ -fx-font-size:15.0px;
+}
+.dialog-pane .button{
+ -fx-background-color: derive(-fx-base, 35%);
+ -fx-text-fill: lightgray;
+ -fx-wrap-text: true;
+ -fx-focus-traversable: false;
+ }
+.dialog-pane .button:hover{ 
+ -fx-background-color: GREEN;
+ -fx-text-fill: black;
+ }
+.dialog-pane .button:default {
+ -fx-base: -fx-accent ;
+ }
+ 
+.spinner {
+   -fx-background-color: white;
+   -fx-border-color: gray;
+   -fx-border-radius: 10px;
+   -fx-border-width: 2px;
+   -fx-font-size: 14px;
+   -fx-font-weight: bold;
+   -fx-padding: 10px;
+}
+
